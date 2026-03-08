@@ -1,0 +1,23 @@
+{
+  "skill_name": "spec-generator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a technical specification for a URL shortener service. It should handle creating short URLs, redirecting to original URLs, tracking click analytics, and supporting custom short codes. Make it production-ready with considerations for rate limiting, analytics, and data storage.",
+      "expected_output": "A comprehensive Markdown spec with sections for problem statement, goals/non-goals, system overview, domain model, API contracts, configuration, security, and observability",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I need a specification template for a REST API project. Can you generate the skeleton structure so I can fill in the details?",
+      "expected_output": "A Markdown file with section headers and TODO placeholders for a REST API spec, ready to be filled in",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Write a full technical spec for a real-time collaborative text editor like Google Docs. Include how the conflict resolution works (CRDT), user authentication, document persistence, and the WebSocket protocol for syncing changes.",
+      "expected_output": "A detailed spec covering all the mentioned components plus additional sections like failure model, security considerations, and scalability",
+      "files": []
+    }
+  ]
+}
