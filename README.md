@@ -6,7 +6,7 @@ Skill for generating comprehensive technical specification documents.
 
 `skills/spec-generator`
 
-This skill generates technical specification documents. It supports two modes:
+This skill generates technical specification documents in the OpenAI Symphony project format. It supports two modes:
 
 - **Full Generation**: Create a complete spec from scratch based on user requirements
 - **Template Fill**: Generate/fill a spec skeleton with user-provided details
